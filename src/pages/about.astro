@@ -1,120 +1,246 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout
+  title="A propos | Clémentine Soussignan"
+  description="A propos de Clémentine Soussignan"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero title="A propos" tagline="Découvrez mon parcours.">
+        <img
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpg"
+          alt="Clémentine Soussignan"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p>
+            Je suis Clémentine Soussignan, une jeune diplômée passionnée par le
+            monde de la communication. Mon parcours académique s'est concentré
+            sur la communication, les langues et la culture. Après avoir obtenu
+            ma licence en Langues, Littératures et Civilisations Étrangères en
+            anglais (LLCE), j’ai complété deux Masters. Le premier, en Études
+            Culturelles du Monde Anglophone, m’a permis de développer des
+            compétences solides en rédaction professionnelle, en communication
+            orale, en traduction, ainsi qu’en gestion de projets.
+          </p>
+          <br />
+          <p>
+            Ensuite, mon diplôme de Master de Recherche en Études et Conseils en
+            Information-Communication m'a permis d'acquérir une expertise
+            approfondie dans les domaines des stratégies éditoriales, de
+            l’analyse et de la maîtrise des stratégies de communication, de la
+            gestion de l’e-réputation et du community management, ainsi que dans
+            le journalisme contemporain et la communication des organisations.
+          </p>
+          <br />
+          <p>
+            Mon engagement passionné et mes compétences variées font de moi une
+            collaboratrice dynamique et créative, prête à relever de nouveaux
+            défis avec énergie et enthousiasme. Bienvenue dans mon univers de la
+            communication, où chaque mot compte et chaque idée peut changer le
+            monde !
+          </p>
+        </div>
+      </section>
 
-		<ContactCTA />
-	</div>
+      <section>
+        <h2 class="section-title">Expériences professionnelles</h2>
+        <div class="content">
+          <ul>
+            <li>
+              <strong>[Février 2023 - Juillet 2023]</strong> - Stage chez HOMEPERF
+              <ul>
+                <li>
+                  Gestion des réseaux sociaux et communication digitale,
+                  développement de stratégies, création de contenu, et
+                  déploiement de la charte graphique.
+                </li>
+                <li>
+                  Conception et réalisation de supports visuels tels que des
+                  affiches, invitations, newsletters, flyers et brochures.
+                </li>
+                <li>
+                  Participation à l'élaboration de la stratégie marketing
+                  globale de l'entreprise.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Gestion événementielle et communication interne
+              <ul>
+                <li>
+                  Coordination et organisation d'événements d’entreprise,
+                  gestion logistique et des participants.
+                </li>
+                <li>
+                  Valorisation de la marque employeur auprès des employés et des
+                  candidats potentiels.
+                </li>
+                <li>
+                  Participation à l'organisation de la semaine SQVCT, incluant
+                  création visuelle et gestion des publications.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Support marketing et analyse de performance
+              <ul>
+                <li>
+                  Gestion des supports commerciaux et coordination avec les
+                  fournisseurs.
+                </li>
+                <li>
+                  Analyse des performances des campagnes marketing et production
+                  de reportings détaillés.
+                </li>
+                <li>
+                  Production de contenus visuels, incluant montage vidéo et
+                  photo pour réseaux sociaux et événements.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>[Octobre 2021 - Avril 2022]</strong> - Stage de recherche à
+              Aix-Marseille Université
+              <ul>
+                <li>
+                  Réalisation de recherches sur "Britain after Brexit:
+                  geopolitical dislocations and realignment".
+                </li>
+                <li>
+                  Rédaction de rapports analytiques et participation à des
+                  séminaires et présentations publiques.
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            Forte d’une expertise polyvalente et d’une passion pour la
+            communication, je suis prête à contribuer activement à la réussite
+            de vos projets avec créativité et rigueur !
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <h3>Savoir-être</h3>
+          <br />
+          <ul>
+            <li>
+              Communication efficace : Capacité à transmettre des messages
+              clairs et convaincants à différents publics.
+            </li>
+            <br />
+            <li>
+              Créativité : Aptitude à générer des idées originales et à trouver
+              des solutions innovantes pour promouvoir une entreprise.
+            </li>
+            <br />
+            <li>
+              Adaptabilité : Capacité à s'ajuster rapidement aux changements de
+              stratégie ou de priorités dans un environnement dynamique de
+              communication.
+            </li>
+          </ul>
+          <br />
+          <h3>Compétences Professionnelles</h3>
+          <br />
+          <ul>
+            <li>
+              Maîtrise des outils de conception graphique : Expérience avancée
+              avec Canva et compétences en montage vidéo avec iMovie et Pitchy
+              pour créer du contenu visuel attrayant.
+            </li>
+            <br />
+            <li>
+              Compétences en gestion de contenu : Connaissance de la suite
+              OpenOffice pour la création et la gestion de documents, ainsi
+              qu’une base en référencement SEO pour optimiser la visibilité en
+              ligne.
+            </li>
+            <br />
+            <li>
+              Bilinguisme et expertise culturelle : Maîtrise de l'anglais comme
+              langue maternelle, associée à une compréhension approfondie de la
+              culture anglophone grâce à un master en études culturelles du
+              monde anglophone, ce qui permet une communication efficace dans un
+              contexte international.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
